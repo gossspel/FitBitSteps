@@ -15,6 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 		// Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let VC = FitBitClientVC(nibName: nil, bundle: nil)
+        VC.view.backgroundColor = UIColor.white
+        window?.rootViewController = VC
+        window?.makeKeyAndVisible()
 		return true
 	}
 
@@ -29,6 +34,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	}
 
 	func applicationWillEnterForeground(_ application: UIApplication) {
+        guard let sureVC = window?.rootViewController as? FitBitClientVC, let sureUserId = fitbitUserId else {
+            return
+        }
+        
+        sureVC.VM.getDESCNewSteps(sureUserId)
 		// Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
 	}
 
@@ -52,9 +62,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 			    return false
 			}
 
-			fitbitAccessToken = url.queryStringValueOf(queryStringName: "access_token")!
-			fitbitUserId = url.queryStringValueOf(queryStringName: "user_id")!
+			fitbitAccessToken = url.queryStringValueOf(queryStringName: "access_token")
+			fitbitUserId = url.queryStringValueOf(queryStringName: "user_id")
             fitbitTokenExpiresIn = Int(url.queryStringValueOf(queryStringName: "expires_in")!)!
+            
+            if let sureUserId = fitbitUserId, let sureVC = window?.rootViewController as? FitBitClientVC {
+                sureVC.VM.getDESCNewSteps(sureUserId)
+            }
 		}
 		return true
 	}

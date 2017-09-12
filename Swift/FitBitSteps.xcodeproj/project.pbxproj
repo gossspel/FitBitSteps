@@ -13,6 +13,21 @@
 		652866851F1E82F80069C294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 652866841F1E82F80069C294 /* Assets.xcassets */; };
 		652866881F1E82F80069C294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652866861F1E82F80069C294 /* LaunchScreen.storyboard */; };
 		652866AC1F1E8B130069C294 /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652866AB1F1E8B130069C294 /* Globals.swift */; };
+		6B0FBA461F660DF9000BB0F6 /* FBSCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0FBA451F660DF9000BB0F6 /* FBSCacheManager.swift */; };
+		6B5654A61F64FDE300AA8471 /* ActivityStepTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5654A51F64FDE300AA8471 /* ActivityStepTableCell.swift */; };
+		6B5654A81F65097400AA8471 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5654A71F65097400AA8471 /* UILabelExtensions.swift */; };
+		6B63B2EF1F66F7670013A7E6 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63B2EE1F66F7670013A7E6 /* DateExtensions.swift */; };
+		6B63B2F21F6704120013A7E6 /* DateExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B63B2F11F6704120013A7E6 /* DateExtensionsTests.swift */; };
+		6B6B7E791F633AAA00B562A4 /* ActivityStepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6B7E781F633AAA00B562A4 /* ActivityStepModel.swift */; };
+		6B6B7E7D1F633B2700B562A4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6B7E7B1F633B2700B562A4 /* Alamofire.framework */; };
+		6B6B7E7E1F633B2700B562A4 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B6B7E7C1F633B2700B562A4 /* ObjectMapper.framework */; };
+		6B93B3501F63524300083021 /* FitBitClientVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93B34F1F63524300083021 /* FitBitClientVM.swift */; };
+		6B93B3521F6352FC00083021 /* ActivityStepTableCellVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B93B3511F6352FC00083021 /* ActivityStepTableCellVM.swift */; };
+		6BEEC5D51F633C7C00F8F374 /* ActivityStepListContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEEC5D41F633C7C00F8F374 /* ActivityStepListContainer.swift */; };
+		6BEEC5D81F6345EB00F8F374 /* FBSAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEEC5D71F6345EB00F8F374 /* FBSAPIClient.swift */; };
+		6BEEC5DC1F6346DF00F8F374 /* FBSHTTPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEEC5DB1F6346DF00F8F374 /* FBSHTTPManager.swift */; };
+		6BEEC5DF1F63481800F8F374 /* ActivityStepDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEEC5DE1F63481800F8F374 /* ActivityStepDataService.swift */; };
+		6BEEC5E21F634F0700F8F374 /* FitBitClientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEEC5E11F634F0700F8F374 /* FitBitClientVC.swift */; };
 		A101BA6E1F629081003D2EF6 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101BA6D1F629081003D2EF6 /* URLExtensions.swift */; };
 		A101BA8F1F62A641003D2EF6 /* FitBitStepsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101BA8E1F62A641003D2EF6 /* FitBitStepsUnitTests.swift */; };
 		A101BA971F62A654003D2EF6 /* URLExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A101BA961F62A654003D2EF6 /* URLExtensionsTests.swift */; };
@@ -45,6 +60,21 @@
 		652866871F1E82F80069C294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		652866891F1E82F80069C294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652866AB1F1E8B130069C294 /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		6B0FBA451F660DF9000BB0F6 /* FBSCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSCacheManager.swift; sourceTree = "<group>"; };
+		6B5654A51F64FDE300AA8471 /* ActivityStepTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityStepTableCell.swift; sourceTree = "<group>"; };
+		6B5654A71F65097400AA8471 /* UILabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		6B63B2EE1F66F7670013A7E6 /* DateExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		6B63B2F11F6704120013A7E6 /* DateExtensionsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtensionsTests.swift; sourceTree = "<group>"; };
+		6B6B7E781F633AAA00B562A4 /* ActivityStepModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityStepModel.swift; sourceTree = "<group>"; };
+		6B6B7E7B1F633B2700B562A4 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		6B6B7E7C1F633B2700B562A4 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
+		6B93B34F1F63524300083021 /* FitBitClientVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitBitClientVM.swift; sourceTree = "<group>"; };
+		6B93B3511F6352FC00083021 /* ActivityStepTableCellVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityStepTableCellVM.swift; sourceTree = "<group>"; };
+		6BEEC5D41F633C7C00F8F374 /* ActivityStepListContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityStepListContainer.swift; sourceTree = "<group>"; };
+		6BEEC5D71F6345EB00F8F374 /* FBSAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSAPIClient.swift; sourceTree = "<group>"; };
+		6BEEC5DB1F6346DF00F8F374 /* FBSHTTPManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FBSHTTPManager.swift; sourceTree = "<group>"; };
+		6BEEC5DE1F63481800F8F374 /* ActivityStepDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityStepDataService.swift; sourceTree = "<group>"; };
+		6BEEC5E11F634F0700F8F374 /* FitBitClientVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitBitClientVC.swift; sourceTree = "<group>"; };
 		A101BA6D1F629081003D2EF6 /* URLExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
 		A101BA8C1F62A641003D2EF6 /* FitBitStepsUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitBitStepsUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A101BA8E1F62A641003D2EF6 /* FitBitStepsUnitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitBitStepsUnitTests.swift; sourceTree = "<group>"; };
@@ -60,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6B7E7D1F633B2700B562A4 /* Alamofire.framework in Frameworks */,
+				6B6B7E7E1F633B2700B562A4 /* ObjectMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,10 +115,12 @@
 		652866711F1E82F70069C294 = {
 			isa = PBXGroup;
 			children = (
+				6BEEC5D61F6345B400F8F374 /* NonFeatureSpecific */,
 				6528667C1F1E82F80069C294 /* FitBitSteps */,
 				A101BA8D1F62A641003D2EF6 /* FitBitStepsUnitTests */,
 				A19C75571F63052D008B4EEB /* FitBitStepsUITests */,
 				6528667B1F1E82F80069C294 /* Products */,
+				6B6B7E7A1F633B2600B562A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,10 +137,13 @@
 		6528667C1F1E82F80069C294 /* FitBitSteps */ = {
 			isa = PBXGroup;
 			children = (
+				6BEEC5E31F634FF600F8F374 /* ViewModel */,
+				6BEEC5E01F634D6100F8F374 /* View */,
+				6BEEC5DD1F6347CC00F8F374 /* DataServices */,
+				6B6B7E771F633A8B00B562A4 /* Models */,
 				A101BA6C1F628FE2003D2EF6 /* Extensions */,
 				6528667D1F1E82F80069C294 /* AppDelegate.swift */,
 				652866AB1F1E8B130069C294 /* Globals.swift */,
-				6528667F1F1E82F80069C294 /* ViewController.swift */,
 				652866811F1E82F80069C294 /* Main.storyboard */,
 				652866841F1E82F80069C294 /* Assets.xcassets */,
 				652866861F1E82F80069C294 /* LaunchScreen.storyboard */,
@@ -115,10 +152,91 @@
 			path = FitBitSteps;
 			sourceTree = "<group>";
 		};
+		6B63B2F01F6703E60013A7E6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B63B2F11F6704120013A7E6 /* DateExtensionsTests.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		6B6B7E771F633A8B00B562A4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6B6B7E781F633AAA00B562A4 /* ActivityStepModel.swift */,
+				6BEEC5D41F633C7C00F8F374 /* ActivityStepListContainer.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6B6B7E7A1F633B2600B562A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B6B7E7B1F633B2700B562A4 /* Alamofire.framework */,
+				6B6B7E7C1F633B2700B562A4 /* ObjectMapper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BEEC5D61F6345B400F8F374 /* NonFeatureSpecific */ = {
+			isa = PBXGroup;
+			children = (
+				6BEEC5DA1F63460F00F8F374 /* Manager */,
+				6BEEC5D91F63460A00F8F374 /* Client */,
+			);
+			name = NonFeatureSpecific;
+			sourceTree = "<group>";
+		};
+		6BEEC5D91F63460A00F8F374 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				6BEEC5D71F6345EB00F8F374 /* FBSAPIClient.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		6BEEC5DA1F63460F00F8F374 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6BEEC5DB1F6346DF00F8F374 /* FBSHTTPManager.swift */,
+				6B0FBA451F660DF9000BB0F6 /* FBSCacheManager.swift */,
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		6BEEC5DD1F6347CC00F8F374 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				6BEEC5DE1F63481800F8F374 /* ActivityStepDataService.swift */,
+			);
+			name = DataServices;
+			sourceTree = "<group>";
+		};
+		6BEEC5E01F634D6100F8F374 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6528667F1F1E82F80069C294 /* ViewController.swift */,
+				6BEEC5E11F634F0700F8F374 /* FitBitClientVC.swift */,
+				6B5654A51F64FDE300AA8471 /* ActivityStepTableCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6BEEC5E31F634FF600F8F374 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B93B34F1F63524300083021 /* FitBitClientVM.swift */,
+				6B93B3511F6352FC00083021 /* ActivityStepTableCellVM.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		A101BA6C1F628FE2003D2EF6 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				A101BA6D1F629081003D2EF6 /* URLExtensions.swift */,
+				6B5654A71F65097400AA8471 /* UILabelExtensions.swift */,
+				6B63B2EE1F66F7670013A7E6 /* DateExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -126,6 +244,7 @@
 		A101BA8D1F62A641003D2EF6 /* FitBitStepsUnitTests */ = {
 			isa = PBXGroup;
 			children = (
+				6B63B2F01F6703E60013A7E6 /* Extensions */,
 				A101BA961F62A654003D2EF6 /* URLExtensionsTests.swift */,
 				A101BA8E1F62A641003D2EF6 /* FitBitStepsUnitTests.swift */,
 				A101BA901F62A641003D2EF6 /* Info.plist */,
@@ -152,6 +271,7 @@
 				652866761F1E82F70069C294 /* Sources */,
 				652866771F1E82F70069C294 /* Frameworks */,
 				652866781F1E82F70069C294 /* Resources */,
+				6B6B7E7F1F633B3700B562A4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -271,15 +391,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B6B7E7F1F633B3700B562A4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ObjectMapper.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		652866761F1E82F70069C294 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B6B7E791F633AAA00B562A4 /* ActivityStepModel.swift in Sources */,
+				6B93B3521F6352FC00083021 /* ActivityStepTableCellVM.swift in Sources */,
+				6B5654A81F65097400AA8471 /* UILabelExtensions.swift in Sources */,
+				6BEEC5E21F634F0700F8F374 /* FitBitClientVC.swift in Sources */,
+				6BEEC5D81F6345EB00F8F374 /* FBSAPIClient.swift in Sources */,
 				652866801F1E82F80069C294 /* ViewController.swift in Sources */,
+				6BEEC5DC1F6346DF00F8F374 /* FBSHTTPManager.swift in Sources */,
 				A101BA6E1F629081003D2EF6 /* URLExtensions.swift in Sources */,
 				6528667E1F1E82F80069C294 /* AppDelegate.swift in Sources */,
+				6BEEC5DF1F63481800F8F374 /* ActivityStepDataService.swift in Sources */,
+				6B0FBA461F660DF9000BB0F6 /* FBSCacheManager.swift in Sources */,
+				6B5654A61F64FDE300AA8471 /* ActivityStepTableCell.swift in Sources */,
+				6BEEC5D51F633C7C00F8F374 /* ActivityStepListContainer.swift in Sources */,
+				6B63B2EF1F66F7670013A7E6 /* DateExtensions.swift in Sources */,
 				652866AC1F1E8B130069C294 /* Globals.swift in Sources */,
+				6B93B3501F63524300083021 /* FitBitClientVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +441,7 @@
 			files = (
 				A101BA8F1F62A641003D2EF6 /* FitBitStepsUnitTests.swift in Sources */,
 				A101BA971F62A654003D2EF6 /* URLExtensionsTests.swift in Sources */,
+				6B63B2F21F6704120013A7E6 /* DateExtensionsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +586,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FitBitSteps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redux.FitBitSteps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,7 +604,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = FitBitSteps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redux.FitBitSteps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -459,6 +622,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FitBitStepsUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redux.FitBitStepsUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -472,6 +636,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FitBitStepsUnitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redux.FitBitStepsUnitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -484,6 +649,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = FitBitStepsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redux.FitBitStepsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +662,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = FitBitStepsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redux.FitBitStepsUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,6 +708,7 @@
 				A19C755F1F63052D008B4EEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
