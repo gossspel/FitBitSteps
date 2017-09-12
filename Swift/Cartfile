@@ -1,0 +1,5 @@
+# Alamo Fire
+github "Alamofire/Alamofire" ~> 4.4
+
+# Object Mapper (2.2.5 is the last version that supports Swift 3.0)
+github "Hearst-DD/ObjectMapper" == 2.2.5
