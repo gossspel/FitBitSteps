@@ -13,6 +13,7 @@ let callbackURI: String = "mhStepTracker://oauth-callback"
 let tokenURL: String = "https://api.fitbit.com/oauth2/token"
 let clientSecret: String = "45d700afa2244b04fc30f26b205eeb8b"
 let clientID: String = "228NRR"
-var fitbitAccessToken: String = ""
-var fitbitUserId: String = ""
+let completeAuthURL: String = "\(authURL)?client_id=\(clientID)&response_type=token&scope=activity&redirect_uri=\(callbackURI)"
+var fitbitAccessToken: String? // Move to KeyChain later
+var fitbitUserId: String?
 var fitbitTokenExpiresIn: Int = 0
